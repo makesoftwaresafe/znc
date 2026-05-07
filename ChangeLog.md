@@ -1,3 +1,13 @@
+# ZNC 1.10.2 (2026-05-07)
+
+## Fixes
+
+* Fix build with SWIG 4.4.
+* Fix build in the event some parts of Boost are installed but Boost.Locale is not.
+* Make `GetClient()` work in the `OnClientGetSASLMechanisms` module callback.
+* Stop accidentally requiring new perl 5.35.1, regression from 1.10.0.
+
+
 # ZNC 1.10.1 (2025-07-01)
 
 This release fixes several regressions and features introduced in 1.10.0.
